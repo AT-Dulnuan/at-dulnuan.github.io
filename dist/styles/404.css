@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #FFE347;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+   font-size: 5rem; 
+   margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.container {
+    z-index: 2;
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+.background {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 800;
+    font-size: 40rem;
+    opacity: 0.08;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      h1 {
+        font-size: 10rem;
+  }
+
+}
