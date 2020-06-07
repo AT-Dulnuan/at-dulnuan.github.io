@@ -13,7 +13,7 @@ const burgerLines = document.getElementById("burgerMenu").querySelectorAll(".lin
 new fullpage('#fullpage', {
     scrollingSpeed: 1000,
     fixedElements: '.floating-btns, .navbar',
-    anchors: ["hero", "works", "works2", "works3", "contact"],
+    anchors: ["home", "works", "works2", "works3", "contact"],
     menu: '#navMenu',
     navigation: true,
     navigationPosition: 'left',
