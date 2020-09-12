@@ -1,6 +1,6 @@
 
 // Back to Top
-topBtn = document.getElementById("topBtn");
+const topBtn = document.getElementById("topBtn");
 
 window.onscroll = function () { scrollFunction() };
 
@@ -39,7 +39,7 @@ new fullpage('#fullpage', {
             document.getElementById("navMenu").classList.remove("white");
             document.getElementById("logoImg").setAttribute("src", "./img/logo.png");
             document.querySelector(".floating-btns").classList.remove("white");
-            for (i = 0; i < 3; i++) {
+            for (var i = 0; i < 3; i++) {
                 burgerLines[i].style.backgroundColor = "#323031";
             }
         }
@@ -55,7 +55,7 @@ document.getElementById("burgerMenu").addEventListener("click", function () {
     document.querySelector(".nav-menu").classList.toggle("active");
     document.querySelector(".floating-btns").classList.toggle("hide");
     document.getElementById("navMenu").classList.toggle("white");
-    for (i = 0; i < 3; i++) {
+    for (var i = 0; i < 3; i++) {
         burgerLines[i].style.backgroundColor = "#323031";
     }
 })
