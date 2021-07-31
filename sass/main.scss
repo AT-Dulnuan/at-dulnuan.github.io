@@ -173,6 +173,12 @@ body {
             height: 0.15rem;
             background-color: $text;
             width: 20%;
+            // padding: 0 1rem;
+        }
+
+        h2.title {
+            padding: 0 1.5rem;
+            width: 80%;
         }
     }
 
@@ -323,9 +329,9 @@ nav.navbar {
 header {
 
     .hero {
-        width: 35%;
+        width: 40%;
         margin: auto;
-        padding: 4rem;
+        padding: 3.6rem 4rem;
 
         .main-title-container {
             padding-bottom: 1.3rem;
@@ -336,6 +342,18 @@ header {
         
         .description-container {
             margin-bottom: 2.6rem;
+
+            .intro-line-wrapper {
+                width: 20%;
+                height: 100%;
+            }
+            .intro-line {
+                width: 4rem;
+                height: 0.15rem;
+                background-color: $text;
+                display: inline-block;
+                vertical-align: middle;
+            }
         }
 
     }
@@ -463,6 +481,12 @@ footer {
 
         .main-title-container {
             display: block;
+        }
+
+        .description-container {
+            .intro-line {
+                width: 2.8rem;
+            }
         }
     }
 
