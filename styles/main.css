@@ -327,7 +327,14 @@ footer .container p.text {
 }
 footer .title-container {
   width: 35%;
+  max-width: 500px;
   padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+footer .title-container h2.title {
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (max-device-width: 768px) {

@@ -405,7 +405,15 @@ footer {
     position: relative;
     .title-container {
         width: 35%;
+        max-width: 500px;
         padding-bottom: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        
+        h2.title {
+            width: 100%;
+            text-align: center;
+        }
     }
 
 }
