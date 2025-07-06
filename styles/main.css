@@ -305,6 +305,10 @@ section.work p.summary {
 section.work .btn-container {
   padding-top: 3rem;
 }
+section.work#ecc {
+  background: url("../img/ecc.jpg") no-repeat center;
+  background-size: cover;
+}
 section.work#yeladiminc {
   background: url("../img/yeladiminc.jpg") no-repeat center;
   background-size: cover;
